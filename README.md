@@ -10,4 +10,5 @@ This repository contains some smoke integration tests for the Cinema Ticket Syst
       service.
 - After all are up and running:
     - cd `smoke-tests`
+    - To compile and install all dependencies: `./mvnw install -DskipTests`
     - To run tests: `./mvnw test`
