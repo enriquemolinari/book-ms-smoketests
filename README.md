@@ -9,6 +9,7 @@ This repository contains some smoke integration tests for the Cinema Ticket Syst
     - And then the [Cinema Ticket System - API Composition](https://github.com/enriquemolinari/book-apicomposition)
       service.
 - After all are up and running:
+    - `git clone https://github.com/enriquemolinari/book-ms-smoketests.git smoke-tests`
     - cd `smoke-tests`
     - To compile and install all dependencies: `./mvnw install -DskipTests`
     - To run tests: `./mvnw test`
